@@ -5,4 +5,3 @@ plugins {
 dependencies {
     commonMainImplementation(projects.annotations)
 }
-group = "net.humans.kmm.arch"
