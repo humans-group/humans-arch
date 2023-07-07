@@ -13,10 +13,12 @@ dependencies {
     val agpVersion = "7.4.0"
     val detektVersion = "1.21.0"
     val ktlintVersion = "10.2.1"
+    val publishPluginVersion = "0.24.0"
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
     implementation("com.android.tools.build:gradle:$agpVersion")
     implementation("io.gitlab.arturbosch.detekt:detekt-gradle-plugin:$detektVersion")
     implementation("org.jlleitschuh.gradle:ktlint-gradle:$ktlintVersion")
+    implementation("com.vanniktech:gradle-maven-publish-plugin:$publishPluginVersion")
 }
 
 project.tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
