@@ -5,4 +5,4 @@ dependencies {
     commonMainImplementation(projects.annotations)
 }
 
-group = "net.humans.arch.kmm.domain"
+group = "net.humans.kmm.arch"

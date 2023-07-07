@@ -3,6 +3,5 @@ plugins {
 }
 dependencies {
     commonMainImplementation(projects.annotations)
-    commonMainImplementation(projects.domain.result)
 }
-group = "net.humans.kmm.arch.data"
+group = "net.humans.kmm.arch"

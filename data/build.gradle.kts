@@ -3,5 +3,6 @@ plugins {
 }
 dependencies {
     commonMainImplementation(projects.annotations)
+    commonMainImplementation(projects.domain)
 }
-group = "net.humans.arch.kmm.remote"
+group = "net.humans.kmm.arch"

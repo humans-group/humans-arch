@@ -16,18 +16,8 @@ includeBuild("build-logic")
 
 include(
     ":annotations",
-    ":di"
-)
-
-include(
-    "data:result"
-)
-
-include(
-    ":domain:result"
-)
-
-include(
-    ":remote:result",
-    ":remote:error-handler"
+    ":di",
+    ":data",
+    ":domain",
+    ":remote",
 )
