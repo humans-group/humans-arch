@@ -1,16 +1,11 @@
 [versions]
 # kotlin
-kotlinVersion = "1.7.21"
+kotlinVersion = "1.8.10"
 
 # android
-androidGradlePluginVersion = "7.3.1"
-annotationsVersion = "1.5.0"
+androidGradlePluginVersion = "7.4.0"
 
 [libraries]
-#===========ANDROID===========#
-#androidX
-android-x-annotations = { module = "androidx.annotation:annotation", version.ref = "annotationsVersion" }
-
 #===========GRADLE PLUGINS ARTIFACTS===========#
 plugin-kotlin-gradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinVersion" }
 plugin-android-gradle = { module = "com.android.tools.build:gradle", version.ref = "androidGradlePluginVersion" }

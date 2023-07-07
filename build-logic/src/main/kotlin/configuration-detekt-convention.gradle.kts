@@ -2,7 +2,7 @@ plugins {
     id("io.gitlab.arturbosch.detekt")
 }
 
-val detektVersion: String = "1.19.0"
+val detektVersion: String = "1.21.0"
 
 tasks.getByName("detekt").enabled = false
 
