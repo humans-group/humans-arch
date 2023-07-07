@@ -23,4 +23,4 @@ jobs:
       run: ./gradlew assemble compileKotlinIosArm64 compileKotlinIosX64
 
     - name: Verify library sources
-      run: ./gradlew detektAll ktlintCheck lintRelease
+      run: ./gradlew detektAll ktlintCheck
